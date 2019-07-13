@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/welcome_to_alc_4_0"
+        android:layout_marginTop="20dp"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:fontFamily="monospace"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center">
+
+
+        <Button
+            android:id="@+id/goto_activity_b"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text="@string/about_alc"
+            android:background="@drawable/button_layout_style"
+            android:layout_marginBottom="16dp"
+            android:padding="10dp"
+            android:fontFamily="monospace"/>
+
+        <Button
+            android:id="@+id/goto_activity_c"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text="@string/my_profile"
+            android:background="@drawable/button_layout_style"
+            android:padding="10dp"
+            android:fontFamily="monospace"/>
+    </LinearLayout>
+
+
+</android.support.design.widget.CoordinatorLayout>
